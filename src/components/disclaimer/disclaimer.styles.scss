@@ -1,0 +1,24 @@
+.disclaimer-bar{
+    background-color: #fcf488;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    align-items: center;
+    border: 1px solid black;
+
+    a {
+        text-decoration: underline;
+    }
+    
+    .group{
+        width: 97%;
+        display: inline-block;
+    }
+    
+    .close-button{
+        width: 3%;
+        text-align: right;
+    }
+}
+
